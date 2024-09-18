@@ -1,0 +1,12 @@
+<svg width="18.104126" height="24.000000" viewBox="0 0 18.1041 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<pattern id="pattern_191_1090" patternContentUnits="objectBoundingBox" width="1.000000" height="1.000000">
+			<use xlink:href="#image191_109_0" transform="matrix(0.055236,0,0,0.041667,-0.162832,0)"/>
+		</pattern>
+		<image id="image191_109_0" width="24.000000" height="24.000000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAATtJREFUSIntlL1KA0EUhT99gNhIAmKn7yCIkvTBxtgY30d7fQdjaQpro7ARRdBGa1eE+JMfC0lhCi1mFk/W7OxOts2BC5dz7z3n7s4wMENOVIAO0AYKwi8AV8ArUM5jcAv82DgU/kj4mzwGQxEKhX8W/sslMJ9i0JV8MSHv5TFoSv4g+aPkpykaY9gDPoELoIg52ABz0JvSV7ZcYHtKwKWdrbsMQv7+7bHHYicy9+Rq7EljN1bbsQuEQC1W6zvmMm2yAYyk9g2sS12/vOEyKAItYADsCt8WgSgCqdftTMtqeGFrgngUVV+xOFYxz0GSQQdYmVa8Bnw4xKN4B7Z9xQ8yCMdj38dgMIVBf5JQ0lNx77ONxZ1P8xLmuci6/bmd+Ye5FKM1zFWsAMuYNwfgDXjB3Psz4Npn+xnG8AvP1owtqeXMPwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<rect id="icons8-кошачий-след-24 1" rx="9.052067" width="18.104134" height="24.000000" fill="url(#pattern_191_1090)" fill-opacity="1.000000"/>
+</svg>
