@@ -152,6 +152,9 @@ img {
   padding-bottom: 20px;
   position: relative;
 }
+.timer__wrap {
+  filter: drop-shadow(0 4px 4px rgba(50, 50, 0, 0.5));
+}
 .timer__back {
   position: absolute;
   top: 0;

@@ -172,6 +172,10 @@ img {
   padding-bottom: 20px;
   position: relative;
 
+  &__wrap {
+    filter: drop-shadow(0 4px 4px rgba(50, 50, 0, 0.5));
+  }
+
   &__back {
     position: absolute;
     top: 0;
