@@ -84,6 +84,11 @@ img {
     text-decoration: underline;
     text-transform: uppercase;
     color: #715D00;
+    transition: all .3s linear;
+
+    &:hover {
+      color: #F9E994;
+    }
   }
 
   &__title {
@@ -274,7 +279,9 @@ img {
     border-radius: 30px;
     background: rgb(243, 239, 239);
     box-sizing: border-box;
-    padding: 0 55px;
+    padding: 0 10px 0 55px;
+    font-size: 16px;
+    line-height: 19px;
 
     &::placeholder {
       color: rgb(119, 119, 119);
@@ -295,6 +302,12 @@ img {
     color: rgb(255, 255, 255);
     font-size: 30px;
     line-height: 35px;
+    cursor: pointer;
+    transition: all .3s linear;
+
+    &:hover {
+      background: rgb(148, 189, 61);
+    }
   }
 
   &__date {

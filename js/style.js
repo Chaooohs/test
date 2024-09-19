@@ -4,6 +4,9 @@ const burgerIcon = document.querySelector('.burger')
 const burgerMenu = document.querySelector('.burger__menu')
 const burgerLink = document.querySelectorAll('.burger__link')
 const body = document.querySelector('body')
+const form = document.querySelector('#form')
+const nameInput = document.querySelector('#name')
+const phoneInput = document.querySelector('#tel')
 let totalTime = 3600 * 2
 
 
@@ -52,3 +55,47 @@ burgerLink.forEach((link) => {
     body.classList.remove('open')
   })
 })
+
+
+// input mask
+const maskOptions = {
+  mask: '+{38} (000) 000-00-00',
+  lazy: false
+};
+const mask = IMask(phoneInput, maskOptions);
+
+
+// validate
+form.addEventListener('submit', (e) => {
+  e.preventDefault()
+
+  validateInputs()
+  mask._onChange()  // устраняет ошибку с Imask при очистке поля ввода стр.97
+})
+
+
+// regular of name
+function regName(name) {
+  let rgx = /^[a-zA-Z ]+$/g;
+  return rgx.test(name);
+}
+
+
+// regular of phone
+function regPhone(tel) {
+  let rgx = /^((\+)?(3)?(8)?[\- ]?)?(\(?\d{3}\)?[\- ]?)?\d{3}[\- ]?\d{2}[\- ]?\d{2}$/;
+  return rgx.test(tel);
+}
+
+const validateInputs = () => {
+
+  const name = nameInput.value.trim()
+  const tel = phoneInput.value
+
+  if (regName(name) && regPhone(tel)) {
+    nameInput.value = ''
+    phoneInput.value = ''
+
+    alert(`Name: ${name}\nPhone: ${tel}`)
+  }
+}
