@@ -16,7 +16,7 @@ let mounth = nowDate.getMonth()
 const year = nowDate.getFullYear()
 
 data = data < 10 ? '0' + data : data
-mounth = mounth < 10 ? '0' + mounth : mounth
+mounth = mounth < 10 ? '0' + (mounth + 1) : mounth + 1
 
 currentDate.innerHTML = `${data}.${mounth}.${year}`
 
